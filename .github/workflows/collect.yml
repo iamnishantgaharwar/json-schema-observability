@@ -26,7 +26,7 @@ jobs:
         run: npm ci
 
       - name: Install Bowtie
-        uses: bowtie-json-schema/bowtie@2026.3.1
+        uses: bowtie-json-schema/bowtie@v2026.3.1
 
       - name: Run Bowtie compliance tests
         run: |
