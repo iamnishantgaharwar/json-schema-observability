@@ -1,34 +1,33 @@
 name: Weekly Ecosystem Metrics
 
 on:
+  push:                    # runs on every push (good for testing!)
   schedule:
     - cron: '0 6 * * 1'   # every Monday 6am UTC
-  workflow_dispatch:        # allow manual runs
+  workflow_dispatch:        # manual trigger
 
 jobs:
   collect:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write      # needed to commit data back to repo
+
     steps:
-      # 1. Checkout repo
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 2. Setup Node.js for our fetch.ts
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      # 3. Install our dependencies
       - name: Install dependencies
         run: npm ci
 
-      # 4. Install Bowtie
       - name: Install Bowtie
-        uses: bowtie-json-schema/bowtie@2026.2.4
+        uses: bowtie-json-schema/bowtie@2026.3.1
 
-      # 5. Run Bowtie suite and save output as JSON
       - name: Run Bowtie compliance tests
         run: |
           bowtie suite \
@@ -41,11 +40,9 @@ jobs:
           | bowtie summary --format json > data/bowtie-results.json
           echo "✅ Bowtie compliance data saved"
 
-      # 6. Run our npm fetch script
       - name: Fetch npm download stats
         run: npm run fetch
 
-      # 7. Commit everything
       - name: Commit snapshot
         run: |
           git config user.name "github-actions[bot]"
