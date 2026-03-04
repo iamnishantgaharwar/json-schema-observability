@@ -32,10 +32,6 @@ jobs:
         run: |
           bowtie suite draft2020-12 \
           -i js-ajv \
-          -i python-jsonschema \
-          -i js-hyperjump \
-          -i rust-jsonschema \
-          -i java-networknt-json-schema-validator \
           | bowtie summary --format json > data/bowtie-results.json
 
       - name: Fetch npm download stats
