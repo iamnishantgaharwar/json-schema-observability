@@ -1,0 +1,23 @@
+{
+  "name": "json-schema-oberservability",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "fetch": "npx ts-node src/fetch.ts",
+    "build": "npx tsc"
+  },
+  "keywords": [
+    "json",
+    "schema",
+    "observability"
+  ],
+  "author": "Nishant Gaharwar",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
