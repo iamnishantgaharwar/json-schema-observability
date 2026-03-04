@@ -30,9 +30,20 @@ jobs:
 
       - name: Run Bowtie compliance tests
         run: |
-          bowtie suite draft2020-12 \
-          -i js-ajv \
-          | bowtie summary --format json > data/bowtie-results.json
+          bowtie suite \
+            --dialect draft2020-12 \
+            -i js-ajv \
+            -i python-jsonschema \
+            -i js-hyperjump \
+          > data/bowtie-raw.jsonl
+
+          bowtie summary \
+            --format json \
+            data/bowtie-raw.jsonl \
+          > data/bowtie-results.json
+
+          echo "✅ Bowtie done"
+          cat data/bowtie-results.json
 
       - name: Fetch npm download stats
         run: npm run fetch
