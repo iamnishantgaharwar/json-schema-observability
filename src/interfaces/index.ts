@@ -11,14 +11,16 @@ export interface INpmDownloadStatsResponse {
 }
 
 export interface IBowtieResult {
-    implementation: string;
-    language: string;
-    passed: number;
-    failed: number;
-    errored: number;
-    skipped: number;
-    total: number;
-    compliance: number;
+    implementation: string
+    name: string
+    language: string
+    version: string
+    dialect: string
+    passed: number
+    failed: number
+    errored: number
+    total: number
+    compliance: number
 }
 
 export interface IBowtieReport {
