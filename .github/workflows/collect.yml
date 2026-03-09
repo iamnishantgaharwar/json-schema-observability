@@ -35,7 +35,7 @@ jobs:
             -i js-ajv2020 \
             -i python-jsonschema \
             -i js-hyperjump \
-          > data/bowtie-raw.jsonl
+          > data/bowtie-raw.jsonl || true
 
           bowtie summary \
             --format json \
@@ -56,3 +56,4 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: weekly snapshot $(date -u +%F)"
 
           git push
+
