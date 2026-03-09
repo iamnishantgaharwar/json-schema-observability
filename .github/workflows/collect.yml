@@ -30,18 +30,16 @@ jobs:
 
       - name: Run Bowtie compliance tests
         run: |
+          mkdir -p data
+
           bowtie suite \
             draft2020-12 \
-            --bail \
             -i js-ajv \
             -i python-jsonschema \
             -i js-hyperjump \
-          2>/dev/null > data/bowtie-raw.jsonl || true
-
-          bowtie summary \
-            --format json \
-            data/bowtie-raw.jsonl \
-          > data/bowtie-results.json
+          | tee data/bowtie-raw.jsonl \
+          | bowtie summary --format json \
+          > data/bowtie-results.json || true
 
           echo "✅ Bowtie done"
           cat data/bowtie-results.json
@@ -57,5 +55,6 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: weekly snapshot $(date -u +%F)"
 
           git push
+
 
 
