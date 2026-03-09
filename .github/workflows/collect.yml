@@ -32,7 +32,7 @@ jobs:
         run: |
           bowtie suite \
             draft2020-12 \
-            -i js-ajv \
+            -i js-ajv2020 \
             -i python-jsonschema \
             -i js-hyperjump \
           > data/bowtie-raw.jsonl
@@ -54,4 +54,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/
           git diff --staged --quiet || git commit -m "chore: weekly snapshot $(date -u +%F)"
+
           git push
