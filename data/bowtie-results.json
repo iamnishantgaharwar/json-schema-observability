@@ -8423,6 +8423,22 @@
           "python-jsonschema": "valid",
           "js-hyperjump": "valid"
         }
+      ],
+      [
+        null,
+        {
+          "js-ajv": "valid",
+          "python-jsonschema": "valid",
+          "js-hyperjump": "valid"
+        }
+      ],
+      [
+        true,
+        {
+          "js-ajv": "valid",
+          "python-jsonschema": "valid",
+          "js-hyperjump": "valid"
+        }
       ]
     ]
   ],
@@ -10655,6 +10671,22 @@
       ],
       [
         12,
+        {
+          "js-ajv": "valid",
+          "python-jsonschema": "valid",
+          "js-hyperjump": "valid"
+        }
+      ],
+      [
+        null,
+        {
+          "js-ajv": "valid",
+          "python-jsonschema": "valid",
+          "js-hyperjump": "valid"
+        }
+      ],
+      [
+        true,
         {
           "js-ajv": "valid",
           "python-jsonschema": "valid",
