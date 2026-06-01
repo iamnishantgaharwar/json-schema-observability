@@ -17392,6 +17392,88 @@
   [
     {
       "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "properties": {
+        "foo": {
+          "patternProperties": {
+            "^bar$": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    [
+      [
+        {
+          "foo": {
+            "bar": "foo"
+          }
+        },
+        {
+          "js-ajv": "valid",
+          "python-jsonschema": "valid",
+          "js-hyperjump": "valid"
+        }
+      ],
+      [
+        {
+          "foo": {
+            "bar": "foo"
+          },
+          "bar": "bar"
+        },
+        {
+          "js-ajv": "invalid",
+          "python-jsonschema": "invalid",
+          "js-hyperjump": "invalid"
+        }
+      ]
+    ]
+  ],
+  [
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "properties": {
+        "foo": {
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      },
+      "unevaluatedProperties": false
+    },
+    [
+      [
+        {
+          "foo": {
+            "bar": "foo"
+          }
+        },
+        {
+          "js-ajv": "valid",
+          "python-jsonschema": "valid",
+          "js-hyperjump": "valid"
+        }
+      ],
+      [
+        {
+          "foo": {
+            "bar": "foo"
+          },
+          "bar": "bar"
+        },
+        {
+          "js-ajv": "invalid",
+          "python-jsonschema": "invalid",
+          "js-hyperjump": "invalid"
+        }
+      ]
+    ]
+  ],
+  [
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
       "uniqueItems": true
     },
     [
