@@ -4896,6 +4896,33 @@
   [
     {
       "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "enum": [
+        "\u00e4"
+      ],
+      "$comment": "U+00E4"
+    },
+    [
+      [
+        "\u00e4",
+        {
+          "js-ajv": "valid",
+          "python-jsonschema": "valid",
+          "js-hyperjump": "valid"
+        }
+      ],
+      [
+        "a\u0308",
+        {
+          "js-ajv": "invalid",
+          "python-jsonschema": "invalid",
+          "js-hyperjump": "invalid"
+        }
+      ]
+    ]
+  ],
+  [
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
       "exclusiveMaximum": 3.0
     },
     [
