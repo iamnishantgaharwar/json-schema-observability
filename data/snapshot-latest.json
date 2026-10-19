@@ -1,30 +1,10 @@
 {
-  "collectedAt": "2026-10-12T13:47:11.076Z",
+  "collectedAt": "2026-10-19T11:27:44.896Z",
   "npm_downloads": [
     {
       "package": "ajv",
-      "totalDownloads": 394285027,
+      "totalDownloads": 231966272,
       "dailyDownloads": [
-        {
-          "downloads": 76485436,
-          "day": "2026-10-05"
-        },
-        {
-          "downloads": 0,
-          "day": "2026-10-06"
-        },
-        {
-          "downloads": 80076800,
-          "day": "2026-10-07"
-        },
-        {
-          "downloads": 81948444,
-          "day": "2026-10-08"
-        },
-        {
-          "downloads": 74040072,
-          "day": "2026-10-09"
-        },
         {
           "downloads": 40802642,
           "day": "2026-10-10"
@@ -32,33 +12,33 @@
         {
           "downloads": 40931633,
           "day": "2026-10-11"
+        },
+        {
+          "downloads": 73750094,
+          "day": "2026-10-12"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-10-13"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-10-14"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-10-15"
+        },
+        {
+          "downloads": 76481903,
+          "day": "2026-10-16"
         }
       ]
     },
     {
       "package": "jsonschema",
-      "totalDownloads": 5932648,
+      "totalDownloads": 3176324,
       "dailyDownloads": [
-        {
-          "downloads": 1208183,
-          "day": "2026-10-05"
-        },
-        {
-          "downloads": 0,
-          "day": "2026-10-06"
-        },
-        {
-          "downloads": 1377411,
-          "day": "2026-10-07"
-        },
-        {
-          "downloads": 1338351,
-          "day": "2026-10-08"
-        },
-        {
-          "downloads": 1196562,
-          "day": "2026-10-09"
-        },
         {
           "downloads": 419816,
           "day": "2026-10-10"
@@ -66,33 +46,33 @@
         {
           "downloads": 392325,
           "day": "2026-10-11"
+        },
+        {
+          "downloads": 1098768,
+          "day": "2026-10-12"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-10-13"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-10-14"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-10-15"
+        },
+        {
+          "downloads": 1265415,
+          "day": "2026-10-16"
         }
       ]
     },
     {
       "package": "z-schema",
-      "totalDownloads": 2852887,
+      "totalDownloads": 1570871,
       "dailyDownloads": [
-        {
-          "downloads": 604500,
-          "day": "2026-10-05"
-        },
-        {
-          "downloads": 0,
-          "day": "2026-10-06"
-        },
-        {
-          "downloads": 610834,
-          "day": "2026-10-07"
-        },
-        {
-          "downloads": 606532,
-          "day": "2026-10-08"
-        },
-        {
-          "downloads": 549531,
-          "day": "2026-10-09"
-        },
         {
           "downloads": 238575,
           "day": "2026-10-10"
@@ -100,33 +80,33 @@
         {
           "downloads": 242915,
           "day": "2026-10-11"
+        },
+        {
+          "downloads": 559388,
+          "day": "2026-10-12"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-10-13"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-10-14"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-10-15"
+        },
+        {
+          "downloads": 529993,
+          "day": "2026-10-16"
         }
       ]
     },
     {
       "package": "tv4",
-      "totalDownloads": 2862833,
+      "totalDownloads": 1573055,
       "dailyDownloads": [
-        {
-          "downloads": 600648,
-          "day": "2026-10-05"
-        },
-        {
-          "downloads": 0,
-          "day": "2026-10-06"
-        },
-        {
-          "downloads": 610685,
-          "day": "2026-10-07"
-        },
-        {
-          "downloads": 611157,
-          "day": "2026-10-08"
-        },
-        {
-          "downloads": 546197,
-          "day": "2026-10-09"
-        },
         {
           "downloads": 251065,
           "day": "2026-10-10"
@@ -134,33 +114,33 @@
         {
           "downloads": 243081,
           "day": "2026-10-11"
+        },
+        {
+          "downloads": 523821,
+          "day": "2026-10-12"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-10-13"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-10-14"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-10-15"
+        },
+        {
+          "downloads": 555088,
+          "day": "2026-10-16"
         }
       ]
     },
     {
       "package": "ajv-formats",
-      "totalDownloads": 143914633,
+      "totalDownloads": 84337022,
       "dailyDownloads": [
-        {
-          "downloads": 27282317,
-          "day": "2026-10-05"
-        },
-        {
-          "downloads": 0,
-          "day": "2026-10-06"
-        },
-        {
-          "downloads": 30434243,
-          "day": "2026-10-07"
-        },
-        {
-          "downloads": 30404723,
-          "day": "2026-10-08"
-        },
-        {
-          "downloads": 27024469,
-          "day": "2026-10-09"
-        },
         {
           "downloads": 14376464,
           "day": "2026-10-10"
@@ -168,6 +148,26 @@
         {
           "downloads": 14392417,
           "day": "2026-10-11"
+        },
+        {
+          "downloads": 26898758,
+          "day": "2026-10-12"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-10-13"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-10-14"
+        },
+        {
+          "downloads": 0,
+          "day": "2026-10-15"
+        },
+        {
+          "downloads": 28669383,
+          "day": "2026-10-16"
         }
       ]
     }
@@ -182,11 +182,11 @@
         "language": "javascript",
         "version": "8.20.0",
         "dialect": "draft2020-12",
-        "passed": 1047,
+        "passed": 1048,
         "failed": 27,
         "errored": 227,
-        "total": 1301,
-        "compliance": 80.48
+        "total": 1302,
+        "compliance": 80.49
       },
       {
         "implementation": "python-jsonschema",
@@ -196,20 +196,20 @@
         "dialect": "draft2020-12",
         "passed": 1295,
         "failed": 1,
-        "errored": 5,
-        "total": 1301,
-        "compliance": 99.54
+        "errored": 6,
+        "total": 1302,
+        "compliance": 99.46
       },
       {
         "implementation": "js-hyperjump",
         "name": "hyperjump-json-schema",
         "language": "javascript",
-        "version": "1.17.7",
+        "version": "1.18.0",
         "dialect": "draft2020-12",
-        "passed": 1297,
+        "passed": 1298,
         "failed": 4,
         "errored": 0,
-        "total": 1301,
+        "total": 1302,
         "compliance": 99.69
       }
     ]

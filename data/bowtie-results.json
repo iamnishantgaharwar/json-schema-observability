@@ -4071,6 +4071,7 @@
   ],
   [
     {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
       "$ref": "http://localhost:1234/draft2020-12/detached-dynamicref.json#/$defs/foo"
     },
     [
@@ -6566,6 +6567,7 @@
   ],
   [
     {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
       "if": {
         "const": 1
       },
@@ -6592,6 +6594,7 @@
   ],
   [
     {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
       "if": {
         "const": 1
       },
@@ -10046,6 +10049,16 @@
           "js-ajv": "valid",
           "python-jsonschema": "error",
           "js-hyperjump": "valid"
+        }
+      ],
+      [
+        {
+          "\u03c0": "1"
+        },
+        {
+          "js-ajv": "invalid",
+          "python-jsonschema": "error",
+          "js-hyperjump": "invalid"
         }
       ],
       [
