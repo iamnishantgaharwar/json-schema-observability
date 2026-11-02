@@ -17752,28 +17752,6 @@
       ],
       [
         [
-          1,
-          true
-        ],
-        {
-          "js-ajv": "valid",
-          "python-jsonschema": "valid",
-          "js-hyperjump": "valid"
-        }
-      ],
-      [
-        [
-          0,
-          false
-        ],
-        {
-          "js-ajv": "valid",
-          "python-jsonschema": "valid",
-          "js-hyperjump": "valid"
-        }
-      ],
-      [
-        [
           [
             1
           ],
@@ -18290,28 +18268,6 @@
           [
             "foo"
           ]
-        ],
-        {
-          "js-ajv": "valid",
-          "python-jsonschema": "valid",
-          "js-hyperjump": "valid"
-        }
-      ],
-      [
-        [
-          1,
-          true
-        ],
-        {
-          "js-ajv": "valid",
-          "python-jsonschema": "valid",
-          "js-hyperjump": "valid"
-        }
-      ],
-      [
-        [
-          0,
-          false
         ],
         {
           "js-ajv": "valid",
