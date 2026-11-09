@@ -8702,6 +8702,30 @@
   [
     {
       "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "multipleOf": 1e-08
+    },
+    [
+      [
+        4e-08,
+        {
+          "js-ajv": "valid",
+          "python-jsonschema": "valid",
+          "js-hyperjump": "valid"
+        }
+      ],
+      [
+        1.5e-08,
+        {
+          "js-ajv": "invalid",
+          "python-jsonschema": "invalid",
+          "js-hyperjump": "valid"
+        }
+      ]
+    ]
+  ],
+  [
+    {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
       "type": "integer",
       "multipleOf": 0.123456789
     },
